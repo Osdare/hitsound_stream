@@ -22,6 +22,7 @@ Run the program with (process_vm_readv requires sudo): `sudo ./h_stream`
 ### Windows
 There is currently not a version for windows
 ## Acknowledgements
-This is an early version and will therefore be very buggy. The program has not been tested thoroughly. This is a personal project and is therefore subject to being dropped at any time
+This is an early version and will therefore be very buggy. The program has not been tested thoroughly. This is a personal project and is therefore subject to being dropped at any time.
+
 Most of the heavy work in reverse engineering osu! and reading memory has been done before in projects such as
 [gosumemory](https://github.com/l3lackShark/gosumemory) 
