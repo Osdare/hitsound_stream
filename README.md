@@ -3,6 +3,17 @@ This program was made for the [ctb](https://osu.ppy.sh/wiki/en/Game_mode/osu%21c
 This program tries to fix this problem by putting the hit sounds in a sound buffer and playing them separately from osu!. The user can then manually adjust the offset while the program is 
 running in the terminal. 
 
+## Running the program
+### Linux
+Download the latest release and make the file executable
+
+Make the program executable: `chmod +x h_stream`
+
+Execute the program: `h_stream`
+
+### Windows
+There is currently not a version for windows
+
 ## Controls
 Use the arrow keys to adjust the offset for the hit sounds.
 Up    = +5ms
@@ -18,7 +29,9 @@ Add the miniaudio.h file to the src directory
 ## Building
 ### Linux
 You can compile with: `gcc -lm src/main.c -o h_stream` 
+
 Run the program with (process_vm_readv requires sudo): `sudo ./h_stream`
+
 ### Windows
 There is currently not a version for windows
 ## Acknowledgements
