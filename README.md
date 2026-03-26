@@ -23,6 +23,8 @@ Right = +1ms
 
 The volume of the hit sounds can be changed using the '+' and '-' keys.
 
+Quit the program by pressing 'q'. This saves the volume and offset settings in a file called user_data.bin
+
 ## Dependencies
 Add the miniaudio.h file to the src directory
 [miniaudio.h](https://raw.githubusercontent.com/mackron/miniaudio/master/miniaudio.h)
